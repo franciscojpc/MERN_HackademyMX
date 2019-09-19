@@ -5,7 +5,7 @@ const port = 3000
 app.get('/', (req, res) => {
     
     console.log("TLC: req", req.params)
-    res.send(`Hola Hackademy desde Express`, )
+    res.send(`Hola Hackademy desde Express`)
 
 })
 
